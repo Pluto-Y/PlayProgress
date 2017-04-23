@@ -7,8 +7,11 @@
 //
 
 #import "ViewController.h"
+#import "PYSmileProgress.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet PYSmileProgress *smileProgress;
 
 @end
 
@@ -16,7 +19,12 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    _smileProgress.backgroundColor = [UIColor redColor];
+}
+
+- (void)viewDidAppear:(BOOL)animated {
+    [super viewDidAppear:animated];
+    [_smileProgress startAnimation];
 }
 
 

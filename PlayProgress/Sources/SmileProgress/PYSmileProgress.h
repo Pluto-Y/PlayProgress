@@ -14,4 +14,6 @@ IB_DESIGNABLE
 IBInspectable
 @property (nonatomic, strong) UIColor *strokeColor;
 
+- (void)startAnimation;
+
 @end
