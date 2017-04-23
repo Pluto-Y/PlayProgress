@@ -13,6 +13,7 @@
 		6FE2DCF31EAC78EB0028037A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE2DCF11EAC78EB0028037A /* Main.storyboard */; };
 		6FE2DCF51EAC78EB0028037A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6FE2DCF41EAC78EB0028037A /* Assets.xcassets */; };
 		6FE2DCF81EAC78EB0028037A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6FE2DCF61EAC78EB0028037A /* LaunchScreen.storyboard */; };
+		6FE2DD2E1EACF5290028037A /* PYSmileProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE2DD2D1EACF5290028037A /* PYSmileProgress.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		6FE2DCF41EAC78EB0028037A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6FE2DCF71EAC78EB0028037A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6FE2DCF91EAC78EB0028037A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6FE2DD2C1EACF5290028037A /* PYSmileProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYSmileProgress.h; sourceTree = "<group>"; };
+		6FE2DD2D1EACF5290028037A /* PYSmileProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYSmileProgress.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +86,18 @@
 		6FE2DCFF1EAC794B0028037A /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				6FE2DD281EACF5180028037A /* SmileProgress */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		6FE2DD281EACF5180028037A /* SmileProgress */ = {
+			isa = PBXGroup;
+			children = (
+				6FE2DD2C1EACF5290028037A /* PYSmileProgress.h */,
+				6FE2DD2D1EACF5290028037A /* PYSmileProgress.m */,
+			);
+			path = SmileProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +173,7 @@
 			files = (
 				6FE2DCF01EAC78EB0028037A /* ViewController.m in Sources */,
 				6FE2DCED1EAC78EB0028037A /* AppDelegate.m in Sources */,
+				6FE2DD2E1EACF5290028037A /* PYSmileProgress.m in Sources */,
 				6FE2DCEA1EAC78EB0028037A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -315,6 +329,7 @@
 				6FE2DCFE1EAC78EB0028037A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
